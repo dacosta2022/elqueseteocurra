@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/Style.css"> 
+    <link rel="preconnect" href="htpps://fonts.googleapis.com">
+    <link rel="preconnect" href="htpps://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div>
+            <img class="header_logo" src="./Imagenes/Logo.png" alt="Logo Alura">
+        </div>
+    </header>
+
+    <!-- Seccion Principal -->
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresoTexto" class="ingreso_texto" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="left_footer">
+                        <img src="./Imagenes/Group.png" alt="">
+                        <span class="left_info">Solo letras minusculas y sin acento</span>
+                    <div class="left_botones">
+                        <button id="botonEncriptar" class="boton_encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right ajustar">
+                <img id="Muñeco" class="Muñeco" src="./Imagenes/Muñeco.png" alt="">
+                <textarea id="mensajeFinal" class="mensaje_final" placeholder="Ningun mensaje fue encontrado"></textarea>
+                <p id="rightInfo" class="right_info">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <button id="botonCopiar" class="boton_copiar oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <!-- Pie de Pagina -->
+    <footer>
+        <p class="Copyright">&copy; copyright 2024 - Encriptador de texto - Desarrollado por Daniel Acosta - Azul - Bs. As. - Argentina</p> 
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
